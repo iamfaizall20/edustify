@@ -9,7 +9,7 @@ const App = () => {
     <div>
       <Navbar />
       <Hero />
-      <Title subtitle = 'What we Offer' title = 'Our Program' />
+      <Title subtitle='Our Program' title='What we offer' />
       <Programs />
     </div>
   )
