@@ -1,0 +1,53 @@
+.about {
+    margin: 100px auto 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-left {
+    position: relative;
+    flex-basis: 47%;
+}
+
+.about-right {
+    flex-basis: 50%;
+}
+
+.about-left img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.play-icon {
+    max-width: 80px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    cursor: pointer;
+}
+
+.about-right h3 {
+    margin-top: 5px;
+    color: #212EA0;
+    text-transform: uppercase;
+    font-weight: 650;
+}
+
+.about-right h2 {
+    font-size: 40px;
+    margin: 15px 0;
+    padding-right: 40px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.about-right p {
+    font-size: 20px;
+    opacity: 0.9;
+    font-weight: 400;
+}
